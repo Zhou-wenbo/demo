@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	outline: none;
+}
+body{
+	background: #1f1f1f;
+
+}
+.tab{
+	width: 100%;
+	/*background: url("#")no-repeat;*/
+	background-size: cover;
+	margin-top: 50px;
+}
+.tab .box{
+	width: 1200px;
+	position: relative;
+	margin: 0 auto;
+	height: 850px;
+
+}
+.tab .box .menus{
+	width: 200px;
+	height: 700px;
+	background: rgb(92,94,103);
+	float: left;
+	margin-top: 60px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.tab .box .menus li{
+	width: 200px;
+	height: 70px;
+	background: rgb(92,94,103);
+	font-size:20px;
+	color:#fff;
+	text-align: center;
+	border-bottom: 1px solid rgba(0,0,0,0.5);
+	line-height: 70px;
+	transition: all 0.3s; 
+}
+.tab .box .menus li:nth-child(7){
+	border-bottom: none;
+}
+.tab .box .menus .bg{
+	height: 110px;
+	background: rgb(0,159,233);
+	line-height: 110px;
+}
+.tab .right{
+	float: left;
+	width: 950px;
+	height: 800px;
+	margin-left: 50px;
+	margin-top: 25px;
+	border-radius: 10px;
+	background: rgba(0,0,0,0.5);
+	overflow: hidden;
+}
+.tab .tab_right{
+	width: 950px;
+	height: 800px;
+	position: relative;
+}
+.tab .tab_right img{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform:translateY(-50%);
+	left: 0;
+}
+.tab .scroll{
+	transition: all 0.5s;
+}
